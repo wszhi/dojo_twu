@@ -1,0 +1,111 @@
+/*
+This is a CSS Rule
+It's made of two parts:
+ - a selector
+ - a set of declarations (that live between the curly braces)
+
+.selector {
+    font-size: 12px; // declarations are made up of a property-name and its value
+    font-family: Helvetica, Arial, sans-serif; // each declaration must be separated by a semi-colon
+}
+*/
+body{
+    background-color: #F1F1F1;
+}
+#content{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    border: solid #AAAAAA 2px;
+}
+#banner{
+    text-align: right;
+    margin: 0;
+    height: 677px;
+    background: url("images/hero.png") no-repeat;
+    border-bottom: solid #AAAAAA 1px;
+}
+
+#banner h1{
+    margin: 0;
+    font-size: 60px;
+    padding: 60px 60px 0px 0px;
+}
+
+#banner h2{
+    color: #666666;
+    padding-right: 60px;
+}
+
+.section{
+    width: 100%;
+    border-bottom: solid #AAAAAA 1px;
+}
+
+.section div p{
+    color: #666666;
+}
+
+#why-love div{
+    float: right;
+    width: 45%;
+    display: block;
+}
+
+#why-love img{
+    margin: 20px;
+}
+#retina{
+    display: flex;
+    flex-direction: initial;
+    border-bottom: solid #AAAAAA 1px;
+}
+#retina div{
+    margin: 20px;
+}
+
+#retina img{
+    margin: 20px;
+}
+
+.actions{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.actions li:first-child{
+    border-right: solid #AAAAAA 1px;
+}
+
+.actions li:last-child{
+    border-left:solid #AAAAAA 1px;
+}
+.actions li img{
+    width: 200px;
+}
+
+a{
+    color: #08C;
+    text-decoration: none;
+}
+
+#specs {
+    margin: 30px auto;
+}
+
+#specs thead{
+    text-align: center;
+}
+
+table
+{
+    border-collapse:collapse;
+}
+
+table,th, td
+{
+    border: 1px solid black;
+}
